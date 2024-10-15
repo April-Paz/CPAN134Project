@@ -1,0 +1,106 @@
+/*General*/
+body{
+    background-color:rgb(103, 103, 103);
+}
+
+h1 {
+    color:aliceblue;
+    background-color: rgb(161, 161, 162);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    box-shadow: 12px 12px 11px 11px black;
+}
+h1 a {
+    font-size: 20px;
+    color: white;
+}
+
+/*Home Page*/
+#navigation {
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    transition: 0.4s;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    
+}
+#navigation a {   
+    color: white;
+    margin-right: 10px;
+}
+#navigation a:hover{
+    background-color:white;
+    color:black;
+}
+
+#AprilLogo{
+    color: white;
+    transition: 0.4s;
+    top: 0;
+    left: 0;
+}
+
+#nav-photography{
+    text-align: center;
+}
+    #nav-photography a{
+        color: rgb(0, 255, 0);
+        text-align:center;
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bold;
+}
+
+#nav-vfx{
+    text-align: center;
+  }
+  #nav-vfx a{
+    color: rgb(0, 255, 0);
+    text-align:center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+  }
+
+#nav-sonarfx{
+  text-align: center;
+}
+#nav-sonarfx a {
+    color: rgb(0, 255, 0);
+    text-align:center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+#nav-sonarfx a:hover{
+    color:yellow;
+}
+.logoVid{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+}
+.p1{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+}
+#aboutMe{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+}
+
+/* Photography Page */
+div.photoGallery{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.photoGallery img{
+    padding: 10px;
+}
