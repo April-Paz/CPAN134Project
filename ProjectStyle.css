@@ -16,6 +16,12 @@ h1 a {
     color: white;
 }
 
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Home Page*/
 #navigation {
     background-color: black;
@@ -88,11 +94,20 @@ h1 a {
     font-size: 20px;
     text-align:center;
 }
+#nav-photography a:hover{
+    color:yellow;
+}
+
+#nav-vfx a:hover{
+    color:yellow;
+}
+
 #aboutMe{
     color:white;
     font-size: 20px;
     text-align:center;
 }
+
 
 /* Photography Page */
 div.photoGallery{
@@ -103,4 +118,13 @@ div.photoGallery{
 }
 div.photoGallery img{
     padding: 10px;
+}
+
+/* VFX Page */
+.vfxGallery{
+    display: flex;
+}
+.p-description{
+    margin-left: 5px;
+    margin-top: 0px;
 }
