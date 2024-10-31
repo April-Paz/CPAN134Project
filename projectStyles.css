@@ -33,34 +33,41 @@ footer {
   }
 
 /*Home Page*/
+.aprilLogo{
+    color: white;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.aprilLogo-top{
+    color: black;
+    position: absolute;
+    top: 0px;
+}
+
 #navigation {
+    font-size: 16px;
     background-color: black;
     position: fixed;
     text-align: center;
     transition: 0.4s;
     top: 0;
     right: 0;
-    padding: 12px;
+    padding: 10px;
     z-index: 100;
-    
 }
 #navigation a {   
     color: white;
-    margin-right: 10px;
+    padding: 3px;
 }
 #navigation a:hover{
     background-color:white;
     color:black;
 }
 
-#AprilLogo{
-    color: white;
-    transition: 0.4s;
-    top: 0;
-    left: 0;
-}
-
-    #nav-photography a{
+    #nav-photography a, #nav-vfx a, #nav-sonarfx a{
         color: rgb(0, 255, 0);
         text-align:center;
         font-size: 30px;
@@ -68,26 +75,12 @@ footer {
         font-weight:bold;
 }
 
-  #nav-vfx a{
-    color: rgb(0, 255, 0);
-    text-align:center;
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bold;
-  }
+    #nav-sonarfx{
+        text-align: center;
+}
 
-#nav-sonarfx{
-  text-align: center;
-}
-#nav-sonarfx a {
-    color: rgb(0, 255, 0);
-    text-align:center;
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bold;
-}
-#nav-sonarfx a:hover{
-    color:yellow;
+    #nav-photography a:hover, #nav-vfx a:hover, #nav-sonarfx a:hover{
+        color:yellow;
 }
 .logoVid{
     color:white;
@@ -98,13 +91,6 @@ footer {
     color:white;
     font-size: 20px;
     text-align:center;
-}
-#nav-photography a:hover{
-    color:yellow;
-}
-
-#nav-vfx a:hover{
-    color:yellow;
 }
 
 /* Photography Page */
