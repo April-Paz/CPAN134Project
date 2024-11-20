@@ -8,12 +8,8 @@
         <link rel="stylesheet" href="projectStyles.css">
     </head>
 
-    <body>
-    <main class="aprilLogo">
-        <img src = "imgs/AprilLogo.jpg" height="75px" width="65px" alt="An Image of April's Logo">
-        <section class="aprilLogo-top">April Paz</section>
-   
-    </main>
+    <body onload="onload()">
+<!--Navigation Section-->
       <div id="top">
         <nav id="navigation">
         <a href="HomePage.html">HOME</a> 
@@ -25,9 +21,19 @@
         <a href="AboutMePage.html">ABOUT ME</a> 
         </nav> 
      </div> 
-       
+
+<!--Change Display-->
+     <button class="display_btn" onclick="changeDisplay()">Light/Dark Mode</button>
+
+<!--TOP LOGO Section-->
+     <main class="aprilLogo">
+        <img src = "imgs/AprilLogo.jpg" height="75px" width="65px" alt="An Image of April's Logo">
+        <section class="aprilLogo-top">April Paz
+        </section>
+    </main>
+<br>
         <div class="logoVid">
-            <video width="640" height="360" controls>
+            <video width="640" height="360" controls autoplay muted>
                 <source src="video/LogoVid.mp4" type="video/mp4">
                 Your browser does not support this format
             </video>

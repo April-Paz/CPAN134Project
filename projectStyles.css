@@ -1,6 +1,29 @@
 /*General*/
-body{
+/*body{
     background-color:rgb(103, 103, 103);
+    color: white;
+} */
+
+body{
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+/* Display Mode */
+body:not(.light-mode){
+    --background-color: rgb(103, 103, 103);
+    --color: white;
+  }
+.light-mode{
+    --background-color:rgb(255, 255, 255);
+    --color: rgb(0, 0, 0);
+}
+.display_btn{
+    cursor:pointer;
+    background-color: lightblue;
+}
+.display_btn:hover{
+    color:rgb(0, 173, 26);
 }
 
 h1 {
@@ -21,7 +44,6 @@ table.center{
     border: 2px solid #ff0000;
     margin-left: auto;
     margin-right: auto;
-    color: white;
 }
 
 footer {
@@ -34,8 +56,8 @@ footer {
 
 /*Home Page*/
 .aprilLogo{
-    color: white;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-left: 15px;
     transition: 0.4s;
     top: 0;
     left: 0;
@@ -44,7 +66,7 @@ footer {
 .aprilLogo-top{
     color: black;
     position: absolute;
-    top: 0px;
+    top: 0;
 }
 
 #navigation {
@@ -57,6 +79,9 @@ footer {
     right: 0;
     padding: 10px;
     z-index: 100;
+
+    display: flex;
+    gap: 15px;
 }
 #navigation a {   
     color: white;
@@ -83,12 +108,10 @@ footer {
         color:yellow;
 }
 .logoVid{
-    color:white;
     font-size: 20px;
     text-align:center;
 }
 .p1{
-    color:white;
     font-size: 20px;
     text-align:center;
 }
@@ -100,12 +123,12 @@ div.photoGallery{
     white-space: nowrap;
     padding: 10px;
 }
+
 div.photoGallery img{
     padding: 10px;
 }
 
 /* VFX Page */
-
 .vfxVideos{
     display: flex;
     justify-content: left;
@@ -126,7 +149,8 @@ div.photoGallery img{
 
 /* About Me Page */
 #aboutMe-text{
-    color:white;
     font-size: 20px;
     text-align:center;
 }
+
+

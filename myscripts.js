@@ -10,3 +10,14 @@ function scrollFunction(){
         document.getElementById("navigation").style.fontSize = "16px";
     }
 }
+
+//Toggle dark/light mode
+ function changeDisplay() {
+    const wasLightmode = localStorage.getItem('lightmode') === 'true';
+    localStorage.setItem('lightmode', !wasLightmode);
+    const element = document.body;
+    element.classList.toggle('light-mode', !wasLightmode);
+ }
+ function onload(){
+    document.body.classList.toggle('light-mode', localStorage.getItem('lightmode') === 'true');
+ }
