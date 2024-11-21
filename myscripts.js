@@ -21,3 +21,23 @@ function scrollFunction(){
  function onload(){
     document.body.classList.toggle('light-mode', localStorage.getItem('lightmode') === 'true');
  }
+
+
+//Show schedules of teams
+function toggleSchedule(teamId) {
+    var schedule = document.getElementById(teamId);
+    // Toggle the display property between none and block
+    if (schedule.style.display === "none") {
+        schedule.style.display = "block";
+    } else {
+        schedule.style.display = "none";
+    }
+}
+
+    //Initially hide all schedules
+document.addEventListener('DOMContentLoaded', function () {
+    var schedules = document.querySelectorAll('.schedule');
+    schedules.forEach(function (schedule) {
+        schedule.style.display = "none";
+    });
+});

@@ -1,9 +1,3 @@
-/*General*/
-/*body{
-    background-color:rgb(103, 103, 103);
-    color: white;
-} */
-
 body{
     background-color: var(--background-color);
     color: var(--color);
@@ -92,7 +86,7 @@ footer {
     color:black;
 }
 
-    #nav-photography a, #nav-vfx a, #nav-sonarfx a{
+    #nav-photography a, #nav-vfx a, #nav-sonarfx a, #nav-hobbies a{
         color: rgb(0, 255, 0);
         text-align:center;
         font-size: 30px;
@@ -100,11 +94,11 @@ footer {
         font-weight:bold;
 }
 
-    #nav-sonarfx{
+    #nav-sonarfx, #nav-hobbies{
         text-align: center;
 }
 
-    #nav-photography a:hover, #nav-vfx a:hover, #nav-sonarfx a:hover{
+    #nav-photography a:hover, #nav-vfx a:hover, #nav-sonarfx a:hover, #nav-hobbies a:hover{
         color:yellow;
 }
 .logoVid{
@@ -153,4 +147,19 @@ div.photoGallery img{
     text-align:center;
 }
 
-
+/* Hobbies Page */
+main {
+    display: flex; 
+    gap: 10px; 
+    padding: 20px;
+  
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ced4da;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+  }
