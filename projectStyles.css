@@ -60,7 +60,7 @@ footer {
 .aprilLogo-top{
     color: black;
     position: absolute;
-    top: 0;
+    top: 5;
 }
 
 #navigation {
@@ -126,13 +126,14 @@ div.photoGallery img{
 .vfxVideos{
     display: flex;
     justify-content: left;
-    border: 2px solid #0000ff;
-    background-color: rgb(215, 255, 177);
+    border: 5px solid #0000ff;
+    border-style: solid;
+    background-color: rgb(177, 255, 220);
     align-items: left;
     margin-left: 5;
     margin-bottom: 5;
     padding: 15px;
-
+    overflow: hidden;
 }
 .p-description{
     color: rgb(0, 0, 0);
@@ -162,4 +163,9 @@ main {
     border: 2px solid #ced4da;
     border-radius: 5px; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+  }
+  .column:hover {
+    background-color: rgba(86, 108, 195, 0.446);
+    color: black;
   }
