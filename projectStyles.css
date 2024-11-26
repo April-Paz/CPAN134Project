@@ -121,6 +121,12 @@ div.photoGallery{
 div.photoGallery img{
     padding: 10px;
 }
+#displayImage {
+    display: none;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 150%;
+}
 
 /* VFX Page */
 .vfxVideos{

@@ -22,7 +22,22 @@ function scrollFunction(){
     document.body.classList.toggle('light-mode', localStorage.getItem('lightmode') === 'true');
  }
 
+//Photography Page
+    //Select images
+    const galleryImages = document.querySelectorAll(".photoGallery img");
+    const displayImage = document.getElementById("displayImage");
+    
+        //Add click event listener to each image
+    galleryImages.forEach(image => {
+        image.addEventListener("click", () => {
+            //Set clicked image's source to the displayImage element
+            displayImage.src = image.src;
+            displayImage.alt = image.alt;
+            displayImage.style.display = "block"; //Change display from "none" to "block" to show image
+        });
+    });
 
+//Hobbies Page
 //Show schedules of teams
 function toggleSchedule(teamId) {
     var schedule = document.getElementById(teamId);
