@@ -45,6 +45,7 @@ footer {
     background-color: rgb(161, 161, 162);
     padding: 5px;
     font-size: 0.9em;
+    width: 100%;
     clear: both; 
   }
 
@@ -64,14 +65,14 @@ footer {
 }
 
 #navigation {
-    font-size: 16px;
+    font-size: 18px;
     background-color: black;
     position: fixed;
     text-align: center;
     transition: 0.4s;
     top: 0;
     right: 0;
-    padding: 10px;
+    padding: 14px;
     z-index: 100;
 
     display: flex;
@@ -87,8 +88,9 @@ footer {
 }
 
     #nav-photography a, #nav-vfx a, #nav-sonarfx a, #nav-hobbies a{
-        color: rgb(0, 255, 0);
+        color:rgb(0, 203, 0);
         text-align:center;
+        text-decoration: underline overline green;
         font-size: 30px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-weight:bold;
@@ -99,11 +101,15 @@ footer {
 }
 
     #nav-photography a:hover, #nav-vfx a:hover, #nav-sonarfx a:hover, #nav-hobbies a:hover{
-        color:yellow;
+        color:darkkhaki;
 }
 .logoVid{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    word-spacing: 20px;
     text-align:center;
+    border: 10px solid #f00;
 }
 .p1{
     font-size: 20px;

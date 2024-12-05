@@ -1,3 +1,4 @@
+
 //Home Page - navigation menu
 window.onscroll = function() {scrollFunction()};
 
@@ -6,8 +7,8 @@ function scrollFunction(){
         document.getElementById("navigation").style.padding = "3px";
         document.getElementById("navigation").style.fontSize = "15px";
     }else{
-        document.getElementById("navigation").style.padding = "10px";
-        document.getElementById("navigation").style.fontSize = "16px";
+        document.getElementById("navigation").style.padding = "14px";
+        document.getElementById("navigation").style.fontSize = "18px";
     }
 }
 
